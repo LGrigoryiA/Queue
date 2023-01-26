@@ -15,17 +15,11 @@ public class Main {
 
     public static List<Person> generateClients() {
         List<Person> clients = new LinkedList<>();
-        Person a = new Person("Olya", "Sidorova", 5);
-        clients.add(a);
-        Person b = new Person("Anya", "Petrova", 7);
-        clients.add(b);
-        Person c = new Person("Kolya", "Kozlov", 2);
-        clients.add(c);
-        Person d = new Person("Tolya", "Ivanov", 1);
-        clients.add(d);
-        Person e = new Person("Andrey", "Vodogrey", 12);
-        clients.add(e);
-
+        clients.add(new Person("Olya", "Sidorova", 5));
+        clients.add(new Person("Anya", "Petrova", 7));
+        clients.add(new Person("Kolya", "Kozlov", 2));
+        clients.add(new Person("Tolya", "Ivanov", 1));
+        clients.add(new Person("Andrey", "Vodogrey", 12));
         return (List<Person>) clients;
     }
 
